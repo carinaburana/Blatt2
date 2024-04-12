@@ -1,9 +1,8 @@
 public class Spiel {
     int hoelzerImSpiel;
-    int startAnzahl;
+
 
     public Spiel(int startAnzahl) {
-        this.startAnzahl = startAnzahl;
         hoelzerImSpiel = startAnzahl;
 
         while (hoelzerImSpiel > 0) {
